@@ -1,0 +1,44 @@
+.about-heading {
+  margin-bottom: 1rem;
+}
+
+.about-description {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+img {
+  height: 15rem;
+  width: 25rem;
+  border-radius: 5px;
+}
+
+.portal-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  list-style: none;
+  margin-bottom: 2.5rem;
+}
+
+.primary-heading {
+  margin-bottom: 1rem;
+}
+
+.user-description {
+  color: #868e96;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.strong-text {
+  color: #343a40;
+}
+
+/* .about-list-item {
+  overflow: hidden;
+} */

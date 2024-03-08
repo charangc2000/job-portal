@@ -1,0 +1,94 @@
+/*
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+ */
+
+/*  
+ - Font sizes(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ */
+
+/* .section-footer {
+} */
+
+.footer {
+  padding-top: 3rem;
+}
+
+/* grid container */
+.grid--footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  gap: 4rem;
+  background-color: #d2d7dc;
+  padding: 3rem 0 3rem 3rem;
+}
+
+/* flex container */
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-bottom: 1.6rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #868e96;
+  margin-top: 1.6rem;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 1.6rem;
+  color: #868e96;
+}
+
+/* flerx container */
+.footer-nav {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #868e96;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}

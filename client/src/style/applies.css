@@ -1,0 +1,144 @@
+.application-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.app-heading {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.application-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid rgb(209, 206, 206);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.application-flex-last-child {
+  margin-bottom: 1rem;
+}
+
+.app-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 0.5px solid rgb(209, 206, 206);
+  padding: 1rem;
+}
+
+.app-status {
+  border-radius: 0;
+  padding: 0.8rem;
+  background-color: rgb(131, 227, 131);
+  color: #868e96;
+  width: 10rem;
+  color: #495057;
+  border-radius: 10%;
+}
+
+.app-status :hover,
+.app-status:active {
+  color: #495057;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.app-info {
+  color: #868e96;
+}
+
+.progress-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.progress-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #868e96;
+}
+
+.progress-detail-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.company-heading {
+  font-size: 2rem;
+  color: #495057;
+}
+.company-designation {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.app-info-flex-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.applicant-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.applicant-resume-pdf {
+  display: inline-block;
+  background-color: #bbbfc4;
+  padding: 1rem;
+}
+
+.select-applicant {
+  background-color: rgb(107, 212, 107);
+  display: inline-block;
+  padding: 0.8rem;
+  font-family: inherit;
+}
+
+.reject-applicant {
+  background-color: rgb(203, 87, 87);
+  display: inline-block;
+  padding: 0.8rem;
+  font-weight: inherit;
+}
+
+.applies-action-btn {
+  display: flex;
+  gap: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.view-app-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selected {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #22cd22;
+}
+
+.rejected {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c74242;
+}
